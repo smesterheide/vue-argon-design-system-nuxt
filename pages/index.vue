@@ -20,6 +20,12 @@
           class="button--grey"
         >GitHub</a>
       </div>
+      <div class="links">
+        <b-dropdown text="Argon" size="lg" class="m-md-2" variant="primary">
+          <b-dropdown-item :to="{name: 'argon-starter'}">Starter</b-dropdown-item>
+          <b-dropdown-item :to="{name: 'argon-demo'}">Demo</b-dropdown-item>
+        </b-dropdown>
+      </div>
     </div>
   </section>
 </template>
@@ -34,7 +40,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .container {
   margin: 0 auto;
   min-height: 100vh;

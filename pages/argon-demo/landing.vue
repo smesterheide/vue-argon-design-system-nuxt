@@ -113,7 +113,7 @@
             <div class="container">
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6 order-md-2">
-                        <img src="img/theme/promo-1.png" class="img-fluid floating">
+                        <img src="/argon/img/theme/promo-1.png" class="img-fluid floating">
                     </div>
                     <div class="col-md-6 order-md-1">
                         <div class="pr-md-5">
@@ -152,7 +152,7 @@
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6">
                         <div class="card bg-default shadow border-0">
-                            <img v-lazy="'img/theme/img-1-1200x1000.jpg'" class="card-img-top">
+                            <img v-lazy="'/argon/img/theme/img-1-1200x1000.jpg'" class="card-img-top">
                             <blockquote class="card-blockquote">
                                 <svg preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 583 95"
                                      class="svg-bg">
@@ -197,7 +197,7 @@
                 <div class="row row-grid align-items-center">
                     <div class="col-md-6 order-lg-2 ml-lg-auto">
                         <div class="position-relative pl-md-5">
-                            <img src="img/ill/ill-2.svg" class="img-center img-fluid">
+                            <img src="/argon/img/ill/ill-2.svg" class="img-center img-fluid">
                         </div>
                     </div>
                     <div class="col-lg-6 order-lg-1">
@@ -256,7 +256,7 @@
                 <div class="row">
                     <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
                         <div class="px-4">
-                            <img v-lazy="'img/theme/team-1-800x800.jpg'"
+                            <img v-lazy="'/argon/img/theme/team-1-800x800.jpg'"
                                  class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
                                  style="width: 200px;">
                             <div class="pt-4 text-center">
@@ -277,7 +277,7 @@
                     </div>
                     <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
                         <div class="px-4">
-                            <img v-lazy="'img/theme/team-2-800x800.jpg'"
+                            <img v-lazy="'/argon/img/theme/team-2-800x800.jpg'"
                                  class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
                                  style="width: 200px;">
                             <div class="pt-4 text-center">
@@ -298,7 +298,7 @@
                     </div>
                     <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
                         <div class="px-4">
-                            <img v-lazy="'img/theme/team-3-800x800.jpg'"
+                            <img v-lazy="'/argon/img/theme/team-3-800x800.jpg'"
                                  class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
                                  style="width: 200px;">
                             <div class="pt-4 text-center">
@@ -319,7 +319,7 @@
                     </div>
                     <div class="col-md-6 col-lg-3 mb-5 mb-lg-0">
                         <div class="px-4">
-                            <img v-lazy="'img/theme/team-4-800x800.jpg'"
+                            <img v-lazy="'/argon/img/theme/team-4-800x800.jpg'"
                                  class="rounded-circle img-center img-fluid shadow shadow-lg--hover"
                                  style="width: 200px;">
                             <div class="pt-4 text-center">
@@ -503,6 +503,7 @@
 <script>
 export default {
   name: "home",
+  layout: 'argon-demo',
   components: {}
 };
 </script>

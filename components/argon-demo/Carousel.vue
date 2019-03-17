@@ -23,8 +23,8 @@
                                     controls
                                     indicators>
                             <!-- Text slides with image -->
-                            <b-carousel-slide img-src="img/theme/img-1-1200x1000.jpg"></b-carousel-slide>
-                            <b-carousel-slide img-src="img/theme/img-2-1200x1000.jpg"></b-carousel-slide>
+                            <b-carousel-slide img-src="/argon/img/theme/img-1-1200x1000.jpg"></b-carousel-slide>
+                            <b-carousel-slide img-src="/argon/img/theme/img-2-1200x1000.jpg"></b-carousel-slide>
                         </b-carousel>
                     </div>
                 </div>
@@ -33,14 +33,7 @@
     </section>
 </template>
 <script>
-import BCarousel from "bootstrap-vue/es/components/carousel/carousel";
-import BCarouselSlide from "bootstrap-vue/es/components/carousel/carousel-slide";
-
 export default {
-  components: {
-    BCarousel,
-    BCarouselSlide
-  }
 };
 </script>
 <style>

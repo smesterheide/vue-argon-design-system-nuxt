@@ -1,15 +1,15 @@
 <template>
     <header class="header-global">
         <base-nav class="navbar-main" transparent type="" effect="light" expand>
-            <a slot="brand" class="navbar-brand mr-lg-5" href="https://demos.creative-tim.com/vue-argon-design-system/documentation">
-                <img src="img/brand/white.png">
-            </a>
+            <nuxt-link slot="brand" class="navbar-brand mr-lg-5" to="/argon-demo/">
+                <img src="/argon/img/brand/white.png">
+            </nuxt-link>
 
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
                 <div class="col-6 collapse-brand">
-                    <a href="https://demos.creative-tim.com/vue-argon-design-system/documentation/">
-                        <img src="img/brand/blue.png">
-                    </a>
+                    <nuxt-link to="/argon-demo/">
+                        <img src="/argon/img/brand/blue.png">
+                    </nuxt-link>
                 </div>
                 <div class="col-6 collapse-close">
                     <close-button @click="closeMenu"></close-button>
@@ -52,10 +52,10 @@
                         <i class="ni ni-collection d-lg-none"></i>
                         <span class="nav-link-inner--text">Examples</span>
                     </a>
-                    <router-link to="/landing" class="dropdown-item">Landing</router-link>
-                    <router-link to="/profile" class="dropdown-item">Profile</router-link>
-                    <router-link to="/login" class="dropdown-item">Login</router-link>
-                    <router-link to="/register" class="dropdown-item">Register</router-link>
+                    <nuxt-link to="/argon-demo/landing" class="dropdown-item">Landing</nuxt-link>
+                    <nuxt-link to="/argon-demo/profile" class="dropdown-item">Profile</nuxt-link>
+                    <nuxt-link to="/argon-demo/login" class="dropdown-item">Login</nuxt-link>
+                    <nuxt-link to="/argon-demo/register" class="dropdown-item">Register</nuxt-link>
                 </base-dropdown>
             </ul>
             <ul class="navbar-nav align-items-lg-center ml-lg-auto">
@@ -101,9 +101,9 @@
     </header>
 </template>
 <script>
-import BaseNav from "@/components/BaseNav";
-import BaseDropdown from "@/components/BaseDropdown";
-import CloseButton from "@/components/CloseButton";
+import BaseNav from "~/components/argon/BaseNav";
+import BaseDropdown from "~/components/argon/BaseDropdown";
+import CloseButton from "~/components/argon/CloseButton";
 
 export default {
   components: {

@@ -13,19 +13,20 @@
     </div>
 </template>
 <script>
-import Hero from "./components/Hero";
-import BasicElements from "./components/BasicElements";
-import Inputs from "./components/Inputs";
-import CustomControls from "./components/CustomControls";
-import Navigation from "./components/Navigation";
-import JavascriptComponents from "./components/JavascriptComponents";
-import Carousel from "./components/Carousel";
-import Icons from "./components/Icons";
-import Examples from "./components/Examples";
-import DownloadSection from "./components/DownloadSection";
+import Hero from "~/components/argon-demo/Hero";
+import BasicElements from "~/components/argon-demo/BasicElements";
+import Inputs from "~/components/argon-demo/Inputs";
+import CustomControls from "~/components/argon-demo/CustomControls";
+import Navigation from "~/components/argon-demo/Navigation";
+import JavascriptComponents from "~/components/argon-demo/JavascriptComponents";
+import Carousel from "~/components/argon-demo/Carousel";
+import Icons from "~/components/argon-demo/Icons";
+import Examples from "~/components/argon-demo/Examples";
+import DownloadSection from "~/components/argon-demo/DownloadSection";
 
 export default {
   name: "components",
+  layout: 'argon-demo',
   components: {
     Hero,
     BasicElements,

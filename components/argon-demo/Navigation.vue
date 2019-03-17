@@ -18,7 +18,7 @@
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
                 <div class="col-6 collapse-brand">
                     <a href="./index.html">
-                        <img src="img/brand/blue.png">
+                        <img src="/argon/img/brand/blue.png">
                     </a>
                 </div>
                 <div class="col-6 collapse-close">
@@ -33,8 +33,8 @@
 
 </template>
 <script>
-import BaseNav from "@/components/BaseNav";
-import CloseButton from "@/components/CloseButton";
+import BaseNav from "~/components/argon/BaseNav";
+import CloseButton from "~/components/argon/CloseButton";
 import Menu1 from "./Navigation/Menu1";
 import Menu2 from "./Navigation/Menu2";
 import Menu3 from "./Navigation/Menu3";

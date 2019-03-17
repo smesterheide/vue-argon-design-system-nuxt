@@ -70,8 +70,8 @@
     </section>
 </template>
 <script>
-import Tabs from "@/components/Tabs/Tabs.vue";
-import TabPane from "@/components/Tabs/TabPane.vue";
+import Tabs from "~/components/argon/Tabs/Tabs.vue";
+import TabPane from "~/components/argon/Tabs/TabPane.vue";
 import Modals from "./JavascriptComponents/Modals";
 const Tooltips = () => import("./JavascriptComponents/Tooltips");
 const DatePickers = () => import("./JavascriptComponents/DatePickers");

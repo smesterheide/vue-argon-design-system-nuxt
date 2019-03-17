@@ -68,12 +68,12 @@
                         </div>
                         <div class="btn-wrapper text-center">
                             <base-button type="neutral">
-                                <img slot="icon" src="img/icons/common/github.svg">
+                                <img slot="icon" src="/argon/img/icons/common/github.svg">
                                 Github
                             </base-button>
 
                             <base-button type="neutral">
-                                <img slot="icon" src="img/icons/common/google.svg">
+                                <img slot="icon" src="/argon/img/icons/common/google.svg">
                                 Google
                             </base-button>
                         </div>
@@ -107,7 +107,7 @@
     </div>
 </template>
 <script>
-import Modal from "@/components/Modal.vue";
+import Modal from "~/components/argon/Modal.vue";
 export default {
   components: {
     Modal

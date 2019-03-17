@@ -83,7 +83,7 @@
                                 <div class="row" slot="content-header" slot-scope="{closeMenu}">
                                     <div class="col-6 collapse-brand">
                                         <a href="./index.html">
-                                            <img src="img/brand/blue.png">
+                                            <img src="/argon/img/brand/blue.png">
                                         </a>
                                     </div>
                                     <div class="col-6 collapse-close">
@@ -125,7 +125,7 @@
                                 <div class="row" slot="content-header" slot-scope="{closeMenu}">
                                     <div class="col-6 collapse-brand">
                                         <a href="./index.html">
-                                            <img src="img/brand/blue.png">
+                                            <img src="/argon/img/brand/blue.png">
                                         </a>
                                     </div>
                                     <div class="col-6 collapse-close">
@@ -173,8 +173,8 @@
     </section>
 </template>
 <script>
-import BaseNav from "@/components/BaseNav";
-import CloseButton from "@/components/CloseButton";
+import BaseNav from "~/components/argon/BaseNav";
+import CloseButton from "~/components/argon/CloseButton";
 
 export default {
   components: {

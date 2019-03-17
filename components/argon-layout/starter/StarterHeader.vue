@@ -1,13 +1,13 @@
 <template>
     <header class="header-global">
         <base-nav class="navbar-main" transparent type="" effect="light" expand>
-            <nuxt-link slot="brand" class="navbar-brand mr-lg-5" to="/">
+            <nuxt-link slot="brand" class="navbar-brand mr-lg-5" to="/argon-demo/">
                 <img src="/argon/img/brand/white.png">
             </nuxt-link>
 
             <div class="row" slot="content-header" slot-scope="{closeMenu}">
                 <div class="col-6 collapse-brand">
-                    <nuxt-link to="/">
+                    <nuxt-link to="/argon-demo/">
                         <img src="/argon/img/brand/blue.png">
                     </nuxt-link>
                 </div>
@@ -55,10 +55,10 @@
                         <span class="nav-link-inner--text">Examples</span>
                     </a>
                     <div class="dropdown-menu">
-                        <nuxt-link :to="{name: 'argon-demo-landing'}" class="dropdown-item">Landing</nuxt-link>
-                        <nuxt-link :to="{name: 'argon-demo-profile'}" class="dropdown-item">Profile</nuxt-link>
-                        <nuxt-link :to="{name: 'argon-demo-login'}" class="dropdown-item">Login</nuxt-link>
-                        <nuxt-link :to="{name: 'argon-demo-register'}" class="dropdown-item">Register</nuxt-link>
+                        <nuxt-link to="/argon-demo/landing" class="dropdown-item">Landing</nuxt-link>
+                        <nuxt-link to="/argon-demo/profile" class="dropdown-item">Profile</nuxt-link>
+                        <nuxt-link to="/argon-demo/login" class="dropdown-item">Login</nuxt-link>
+                        <nuxt-link to="/argon-demo/register" class="dropdown-item">Register</nuxt-link>
                     </div>
                 </li>
             </ul>

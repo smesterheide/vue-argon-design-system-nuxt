@@ -21,10 +21,10 @@
                         them will give you a picture of what you can built with this powerful Bootstrap 4 Design
                         System.</p>
                     <div class="btn-wrapper">
-                        <nuxt-link :to="{name: 'argon-demo-login'}" class="btn btn-success">
+                        <nuxt-link to="/argon-demo/login" class="btn btn-success">
                             Login Page
                         </nuxt-link>
-                        <nuxt-link :to="{name: 'argon-demo-register'}" class="btn btn-success">
+                        <nuxt-link to="/argon-demo/register" class="btn btn-success">
                             Register Page
                         </nuxt-link>
                     </div>

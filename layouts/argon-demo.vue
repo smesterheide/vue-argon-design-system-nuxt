@@ -1,11 +1,15 @@
 <template>
-  <div>
-    <app-header></app-header>
-    <main>
-        <nuxt />
-    </main>
-    <app-footer></app-footer>
-  </div>
+    <div id="wrapper" class="d-flex flex-column">
+        <header class="header-global">
+            <app-header></app-header>
+        </header>
+        <main class="flex-fill position-relative">
+           <nuxt />
+        </main>
+        <footer class="footer">
+            <app-footer></app-footer>
+        </footer>
+    </div>
 </template>
 
 <script>
@@ -19,3 +23,9 @@ export default {
   }
 };
 </script>
+
+<style>
+body, #wrapper {
+   min-height:100vh;
+}
+</style>

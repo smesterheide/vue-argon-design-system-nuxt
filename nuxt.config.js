@@ -56,7 +56,8 @@ module.exports = {
       bootstrapCSS: false,
       bootstrapVueCSS: false,
       componentPlugins: [
-        'Carousel'
+        'Carousel',
+        'Spinner'
       ],
       directivePlugins: [
         'Tooltip',

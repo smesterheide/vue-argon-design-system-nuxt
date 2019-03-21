@@ -57,12 +57,10 @@ module.exports = {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     // Doc: https://bootstrap-vue.js.org/docs/
-    [
-      'bootstrap-vue/nuxt',
-      {
-        css: false
-      }
-    ],
+    ['bootstrap-vue/nuxt', {
+      bootstrapCSS: false,
+      bootstrapVueCSS: false
+    }],
     '@nuxtjs/pwa'
   ],
   /*

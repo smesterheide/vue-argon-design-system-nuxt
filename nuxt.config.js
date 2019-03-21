@@ -27,12 +27,6 @@ module.exports = {
   */
   loading: { color: '#fff' },
 
-  transition: {
-    name: 'fade',
-    mode: 'out-in',
-    duration: 250
-  },
-
   /*
   ** Global CSS
   */
@@ -40,7 +34,8 @@ module.exports = {
     '~assets/argon/vendor/nucleo/css/nucleo.css',
     '~assets/argon/vendor/font-awesome/css/font-awesome.css',
     '~assets/argon/scss/argon.scss',
-    'bootstrap-vue/dist/bootstrap-vue.css'
+    'bootstrap-vue/dist/bootstrap-vue.css',
+    '~assets/transitions.css'
   ],
 
   /*

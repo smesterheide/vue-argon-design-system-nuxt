@@ -32,7 +32,7 @@ module.exports = {
   */
   css: [
     '~assets/argon/vendor/nucleo/css/nucleo.css',
-    '~assets/argon/vendor/font-awesome/css/font-awesome.css',
+    '@fortawesome/fontawesome-free/css/all.css',
     '~assets/argon/scss/argon.scss',
     'bootstrap-vue/dist/bootstrap-vue.css',
     '~assets/transitions.css'

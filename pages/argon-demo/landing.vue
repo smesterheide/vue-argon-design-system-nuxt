@@ -265,11 +265,11 @@
                                     <small class="h6 text-muted">Web Developer</small>
                                 </h5>
                                 <div class="mt-3">
-                                    <base-button tag="a" href="#" type="warning" icon="fa fa-twitter" rounded
+                                    <base-button tag="a" href="#" type="warning" icon="fab fa-twitter" rounded
                                                  icon-only></base-button>
-                                    <base-button tag="a" href="#" type="warning" icon="fa fa-facebook" rounded
+                                    <base-button tag="a" href="#" type="warning" icon="fab fa-facebook" rounded
                                                  icon-only></base-button>
-                                    <base-button tag="a" href="#" type="warning" icon="fa fa-dribbble" rounded
+                                    <base-button tag="a" href="#" type="warning" icon="fab fa-dribbble" rounded
                                                  icon-only></base-button>
                                 </div>
                             </div>
@@ -286,11 +286,11 @@
                                     <small class="h6 text-muted">Marketing Strategist</small>
                                 </h5>
                                 <div class="mt-3">
-                                    <base-button tag="a" href="#" type="primary" icon="fa fa-twitter" rounded
+                                    <base-button tag="a" href="#" type="primary" icon="fab fa-twitter" rounded
                                                  icon-only></base-button>
-                                    <base-button tag="a" href="#" type="primary" icon="fa fa-facebook" rounded
+                                    <base-button tag="a" href="#" type="primary" icon="fab fa-facebook" rounded
                                                  icon-only></base-button>
-                                    <base-button tag="a" href="#" type="primary" icon="fa fa-dribbble" rounded
+                                    <base-button tag="a" href="#" type="primary" icon="fab fa-dribbble" rounded
                                                  icon-only></base-button>
                                 </div>
                             </div>
@@ -307,11 +307,11 @@
                                     <small class="h6 text-muted">UI/UX Designer</small>
                                 </h5>
                                 <div class="mt-3">
-                                    <base-button tag="a" href="#" type="info" icon="fa fa-twitter" rounded
+                                    <base-button tag="a" href="#" type="info" icon="fab fa-twitter" rounded
                                                  icon-only></base-button>
-                                    <base-button tag="a" href="#" type="info" icon="fa fa-facebook" rounded
+                                    <base-button tag="a" href="#" type="info" icon="fab fa-facebook" rounded
                                                  icon-only></base-button>
-                                    <base-button tag="a" href="#" type="info" icon="fa fa-dribbble" rounded
+                                    <base-button tag="a" href="#" type="info" icon="fab fa-dribbble" rounded
                                                  icon-only></base-button>
                                 </div>
                             </div>
@@ -328,11 +328,11 @@
                                     <small class="h6 text-muted">Founder and CEO</small>
                                 </h5>
                                 <div class="mt-3">
-                                    <base-button tag="a" href="#" type="success" icon="fa fa-twitter" rounded
+                                    <base-button tag="a" href="#" type="success" icon="fab fa-twitter" rounded
                                                  icon-only></base-button>
-                                    <base-button tag="a" href="#" type="success" icon="fa fa-facebook" rounded
+                                    <base-button tag="a" href="#" type="success" icon="fab fa-facebook" rounded
                                                  icon-only></base-button>
-                                    <base-button tag="a" href="#" type="success" icon="fa fa-dribbble" rounded
+                                    <base-button tag="a" href="#" type="success" icon="fab fa-dribbble" rounded
                                                  icon-only></base-button>
                                 </div>
                             </div>

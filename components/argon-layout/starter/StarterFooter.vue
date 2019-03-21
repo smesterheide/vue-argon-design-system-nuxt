@@ -28,22 +28,22 @@
                     <a target="_blank" href="https://twitter.com/creativetim"
                        class="btn btn-neutral btn-icon-only btn-twitter btn-round btn-lg" data-toggle="tooltip"
                        data-original-title="Follow us">
-                        <i class="fa fa-twitter"></i>
+                        <i class="fab fa-twitter"></i>
                     </a>
                     <a target="_blank" href="https://www.facebook.com/creativetim"
                        class="btn btn-neutral btn-icon-only btn-facebook btn-round btn-lg" data-toggle="tooltip"
                        data-original-title="Like us">
-                        <i class="fa fa-facebook-square"></i>
+                        <i class="fab fa-facebook-square"></i>
                     </a>
                     <a target="_blank" href="https://dribbble.com/creativetim"
                        class="btn btn-neutral btn-icon-only btn-dribbble btn-lg btn-round" data-toggle="tooltip"
                        data-original-title="Follow us">
-                        <i class="fa fa-dribbble"></i>
+                        <i class="fab fa-dribbble"></i>
                     </a>
                     <a target="_blank" href="https://github.com/creativetimofficial"
                        class="btn btn-neutral btn-icon-only btn-github btn-round btn-lg" data-toggle="tooltip"
                        data-original-title="Star on Github">
-                        <i class="fa fa-github"></i>
+                        <i class="fab fa-github"></i>
                     </a>
                 </div>
             </div>

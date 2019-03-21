@@ -12,24 +12,24 @@
   },
   "dependencies": {
     "@fortawesome/fontawesome-free": "^5.8.1",
-    "@nuxtjs/axios": "^5.3.6",
+    "@nuxtjs/axios": "^5.4.1",
     "@nuxtjs/pwa": "^2.6.0",
     "bootstrap": "^4.3.1",
     "bootstrap-vue": "^2.0.0-rc.15",
     "cross-env": "^5.2.0",
-    "flatpickr": "^4.5.2",
-    "nouislider": "^12.1.0",
-    "nuxt": "^2.3.4",
-    "vue-flatpickr-component": "^8.1.1",
+    "flatpickr": "^4.5.7",
+    "nouislider": "^13.1.4",
+    "nuxt": "^2.5.1",
+    "vue-flatpickr-component": "^8.1.2",
     "vue-lazyload": "^1.2.6",
-    "vue2-transitions": "^0.2.3"
+    "vue2-transitions": "^0.3.0"
   },
   "devDependencies": {
-    "eslint-config-prettier": "^3.1.0",
-    "eslint-plugin-prettier": "2.6.2",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-prettier": "3.0.1",
     "node-sass": "^4.11.0",
-    "nodemon": "^1.18.9",
-    "prettier": "1.14.3",
+    "nodemon": "^1.18.10",
+    "prettier": "1.16.4",
     "sass-loader": "^7.1.0"
   }
 }

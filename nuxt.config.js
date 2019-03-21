@@ -54,7 +54,14 @@ module.exports = {
     // Doc: https://bootstrap-vue.js.org/docs/
     ['bootstrap-vue/nuxt', {
       bootstrapCSS: false,
-      bootstrapVueCSS: false
+      bootstrapVueCSS: false,
+      componentPlugins: [
+        'Carousel'
+      ],
+      directivePlugins: [
+        'Tooltip',
+        'Popover'
+      ]
     }],
     '@nuxtjs/pwa'
   ],

@@ -23,6 +23,24 @@ module.exports = {
   },
 
   /*
+  ** Configuration for @nuxtjs/pwa
+  ** https://developer.mozilla.org/en-US/docs/Web/Manifest
+  */
+  manifest: {
+    name: 'Vue Argon Design',
+    short_name: 'Argon Design',
+    description: 'Vue Argon Design System for Nuxt',
+    theme_color: '#172b4d',
+  },
+
+  meta: {
+    // apple-mobile-web-app-capable=yes
+    // https://medium.com/@firt/dont-use-ios-web-app-meta-tag-irresponsibly-in-your-progressive-web-apps-85d70f4438cb
+    mobileAppIOS: true,
+    appleStatusBarStyle: '#172b4d'
+  },
+
+  /*
   ** Customize the progress-bar color
   */
   loading: { color: '#fff' },

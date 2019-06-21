@@ -17,9 +17,11 @@
                 <div class="row justify-content-center align-items-center">
                     <div class="col-lg-7 text-center pt-lg">
                         <img src="/argon/img/brand/white.png" style="width: 200px;" class="img-fluid">
-                        <p class="lead text-white mt-4 mb-5">
-                            <slot>A beautiful Design System for Bootstrap 4. It's Free and Open Source.</slot>
-                        </p>
+                        <slot>
+                            <p class="lead text-white mt-4 mb-5">
+                                A beautiful Design System for Bootstrap 4. It's Free and Open Source.
+                            </p>
+                        </slot>
                         <div class="btn-wrapper">
                             <base-button tag="a"
                                          href="https://demos.creative-tim.com/argon-design-system/docs/components/alerts.html"

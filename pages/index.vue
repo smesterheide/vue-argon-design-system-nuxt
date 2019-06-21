@@ -1,8 +1,10 @@
 <template>
     <div>
         <hero>
-            <logo/><br/>
-            Hello World
+            <div class="mt-4 mb-5">
+                <logo></logo>
+                <p class="lead text-white">Hello World</p>
+            </div>
         </hero>
     </div>
 </template>
